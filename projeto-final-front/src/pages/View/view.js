@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Link, useNavigate } from 'react-router-dom';
 import { Modal } from 'react-responsive-modal';
@@ -46,7 +46,7 @@ const View = () => {
     <div className="container">
       <div className="row my-5">
         <div className="col-6">
-          <img src={tarefa.nome} className="w-100" alt={tarefa.nome}/>
+          <img src={tarefa.nome} className="w-100" alt={tarefa.descricao}/>
         </div>
         <div className="col-6">
           <div className="card my-5">
