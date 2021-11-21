@@ -78,7 +78,7 @@ const Cadastro = () => {
               <div className="col-4">
                 <div className="form-group">
                   <label htmlFor="status">Status:</label>
-                  <input id="status" type="time" className="form-control" min="00:00" max="10:00" placeholder="Duraçao da musica" name="status"/>
+                  <input id="status" type="text" className="form-control"  placeholder="Status" name="status"/>
                 </div>
               </div>
               <div className="col-4 d-flex align-items-end justify-content-around">
