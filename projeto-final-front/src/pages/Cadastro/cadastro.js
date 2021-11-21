@@ -57,8 +57,8 @@ const Cadastro = () => {
               </div>
               <div className="col-4">
                 <div className="form-group">
-                  <label htmlFor="autor">Descrição:</label>
-                  <input id="autor" type="text" className="form-control" placeholder="Descrição" name="descricao"/>
+                  <label htmlFor="descricao">Descrição:</label>
+                  <input id="descricao" type="text" className="form-control" placeholder="Descrição" name="descricao"/>
                 </div>
               </div>
               <div className="col-4">
