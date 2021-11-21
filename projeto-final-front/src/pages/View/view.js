@@ -45,8 +45,7 @@ const View = () => {
   return (
     <div className="container">
       <div className="row my-5">
-        <div className="col-6">
-          <img src={tarefa.nome} className="w-100" alt={tarefa.descricao}/>
+        <div className="col-6">          
         </div>
         <div className="col-6">
           <div className="card my-5">
