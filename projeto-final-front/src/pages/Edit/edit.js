@@ -74,10 +74,10 @@ const Edit = () => {
                 <div className="form-group">
                   <label htmlFor="descricao">Descrição:</label>
                   <input
-                    id="autor"
+                    id="descricao"
                     type="text"
                     className="form-control"
-                    placeholder="Nome do autor"
+                    placeholder="Descrição"
                     onChange={handleFieldsChange}
                     value={tarefa.descricao}
                     name="descricao"
