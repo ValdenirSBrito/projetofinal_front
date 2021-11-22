@@ -1,3 +1,4 @@
+import './card.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ const Card = (props) => {
         
         <div className="card-body">
           <h5 className="card-title">{tarefa.nome}</h5>
-          <span className="badge bg-primary">{tarefa.descricao}</span>
+          <span className="card-text">{tarefa.descricao}</span>
         </div>
       </div>
     </Link>

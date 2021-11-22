@@ -64,7 +64,15 @@ const Cadastro = () => {
               <div className="col-4">
                 <div className="form-group">
                   <label htmlFor="prioridade">Prioridade:</label>
-                  <input id="prioridade" type="text" className="form-control" placeholder="Prioridade" name="prioridade"/>
+                  <select
+                name="prioridade"
+                id="prioridade"
+                className="form-control"
+              >
+                <option value="Min">Baixa</option>
+                <option value="Medio">Média</option>
+                <option value="Max">Alta</option>
+              </select>
                 </div>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import './view.css';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Link, useNavigate } from 'react-router-dom';
@@ -43,9 +44,10 @@ const View = () => {
   }
 
   return (
+    <main className="viewTarefa">
     <div className="container">
-      <div className="row my-5">
-        <div className="col-6">          
+      <div className="row ">
+        <div className="col-2">          
         </div>
         <div className="col-6">
           <div className="card my-5">
@@ -55,7 +57,7 @@ const View = () => {
             <h5 className="text-center"><b>Prazo: </b>{tarefa.prazo}</h5>
             <h6 className="text-center"><b>Data de Criação: </b>{tarefa.dataCriacao}</h6>
             <div className="btn-group mt-3 w-100">
-              <Link to={`/edit/${tarefa._id}`} className="btn btn-info">Editar</Link>
+              <Link to={`/edit/${tarefa._id}`} className="btn btn-success">Editar</Link>
               <button className="btn btn-danger" onClick={AbreModal}>Excluir</button>
             </div>
           </div>
@@ -69,6 +71,7 @@ const View = () => {
         </div>
       </Modal>
     </div>
+    </main>
   )
 }
 

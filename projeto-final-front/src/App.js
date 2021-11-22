@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/shared/Header/header';
+import Footer from './components/shared/Footer/footer';
 import Home from './pages/Home/home';
 import Cadastro from './pages/Cadastro/cadastro';
 import { Routes, Route } from 'react-router-dom';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/view/:id" element={<View/>}/>
         <Route path="/edit/:id" element={<Edit/>}/>
       </Routes>
+      <Footer />
     </div>
   );
 }
