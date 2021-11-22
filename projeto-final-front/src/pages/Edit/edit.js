@@ -94,7 +94,6 @@ const Edit = () => {
                     id="prioridade"
                     className="form-control"
                   >
-                    <option value="">Selecione a Prioridade...</option>
                     <option value="Baixa">Baixa</option>
                     <option value="Media">Média</option>
                     <option value="Alta">Alta</option>
@@ -127,7 +126,6 @@ const Edit = () => {
                     id="status"
                     className="form-control"
                   >
-                    <option value="">Selecione um Status...</option>
                     <option value="Fazer">Fazer</option>
                     <option value="Fazendo">Fazendo</option>
                     <option value="Feito">Feito</option>
