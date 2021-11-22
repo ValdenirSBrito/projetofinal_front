@@ -12,7 +12,7 @@ const ListTarefas = () => {
 
 
   const getTarefas = async () => {
-    const request = await fetch('http://localhost:3001/tarefas')
+    const request = await fetch('http://localhost:3000/tarefas')
 
     const data = await request.json();
 
