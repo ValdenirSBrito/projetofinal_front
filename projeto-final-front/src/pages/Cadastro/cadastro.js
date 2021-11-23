@@ -36,6 +36,11 @@ const Cadastro = () => {
     }
   }
 
+  const voltar = async (evento) => {
+    evento.preventDefault();
+    navigate("/");
+  };
+
   return (
     <div className="container">
       <div className="card mt-4">
@@ -83,9 +88,9 @@ const Cadastro = () => {
                   <label htmlFor="prazo">Prazo:</label>
                   <input
                   id="prazo"
-                  type="date"
+                  type="text"
                   className="form-control"
-                  placeholder="date"
+                  placeholder="Prazo"
                   name="prazo"
                 />
                 </div>
@@ -107,7 +112,9 @@ const Cadastro = () => {
               </div>
               <div className="col-4 d-flex align-items-end justify-content-around">
                 <button type="submit" className="btn btn-success">Enviar</button>
+                <form onClick={voltar}>
                 <button type="button" className="btn btn-danger">Voltar</button>
+                </form>
               </div>
             </div>
           </form>

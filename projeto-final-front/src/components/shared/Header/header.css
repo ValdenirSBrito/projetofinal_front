@@ -1,5 +1,5 @@
 .Menu{
-    background-color: black;
+    background-color: brown;
     color: white;
     overflow: hidden;
 
@@ -21,8 +21,5 @@
 }
 
 .Menu .navbar .nav-link a:hover{
-    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-color: #4458dc;
 }
