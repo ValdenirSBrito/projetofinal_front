@@ -1,8 +1,28 @@
 .Menu{
-    background-color: brown;
+    background-color: black;
     color: white;
     overflow: hidden;
 
     
 }
 
+.Menu .navbar-brand{
+    color: white;
+}
+
+.Menu .nav-item .nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Menu .navbar .nav-link .active{
+    color: #4458dc;
+}
+
+.Menu .navbar .nav-link a:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

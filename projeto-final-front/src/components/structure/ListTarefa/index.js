@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Card from '../Card';
+import Api from '../../../api/api';
 
 
 const ListTarefas = () => {
@@ -12,7 +13,7 @@ const ListTarefas = () => {
 
 
   const getTarefas = async () => {
-    const request = await fetch('http://localhost:3000/tarefas')
+    const request = await Api.fetchGetAll();
 
     const data = await request.json();
 

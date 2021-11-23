@@ -55,6 +55,7 @@ const View = () => {
             <h3 className="text-center"><b>Descrição: </b>{tarefa.descricao}</h3>
             <h4 className="text-center"><b>Prioridade: </b> {tarefa.prioridade}</h4>
             <h5 className="text-center"><b>Prazo: </b>{tarefa.prazo}</h5>
+            <h6 className="text-center"><b>Status: </b>{tarefa.status}</h6>
             <h6 className="text-center"><b>Data de Criação: </b>{tarefa.dataCriacao}</h6>
             <div className="btn-group mt-3 w-100">
               <Link to={`/edit/${tarefa._id}`} className="btn btn-success">Editar</Link>

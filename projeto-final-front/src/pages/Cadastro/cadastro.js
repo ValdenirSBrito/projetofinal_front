@@ -81,7 +81,13 @@ const Cadastro = () => {
               <div className="col-4">
                 <div className="form-group">
                   <label htmlFor="prazo">Prazo:</label>
-                  <input id="prazo" type="text" className="form-control" placeholder="Prazo" name="prazo"/>
+                  <input
+                  id="prazo"
+                  type="date"
+                  className="form-control"
+                  placeholder="date"
+                  name="prazo"
+                />
                 </div>
               </div>
               <div className="col-4">
