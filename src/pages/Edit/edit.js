@@ -43,6 +43,11 @@ const Edit = () => {
     navigate(`/view/${id}`);
   }
 
+  const voltar = async (evento) => {
+    evento.preventDefault();
+    navigate("/");
+  };
+
   return (
     <div className="container">
       <div className="card mt-4">
@@ -136,9 +141,11 @@ const Edit = () => {
                 <button type="submit" className="btn btn-success">
                   Enviar
                 </button>
-                <button type="button" className="btn btn-danger">
-                  Voltar
-                </button>
+                <form onClick={voltar}>
+                  <button type="button" className="btn btn-danger">
+                    Voltar
+                  </button>
+                </form>
               </div>
             </div>
           </form>
